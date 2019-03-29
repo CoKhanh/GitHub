@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +18,7 @@ namespace QuanLyBanHang
         {
             InitializeComponent();
         }
-
+        
         void LoadData()
         {
             txtMaThanhPho.ResetText();
@@ -58,6 +58,7 @@ namespace QuanLyBanHang
 
         private void sbtnAdd_Click(object sender, EventArgs e)
         {
+            XtraMessageBox.Show("Edit by GitKraken");
             add = true;
             txtMaThanhPho.Enabled = true;
 
